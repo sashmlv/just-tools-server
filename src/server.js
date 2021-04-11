@@ -10,11 +10,11 @@ class Server {
    /**
     * Create a server
     * @param {ServerProtocols} protocol - Server protocol
-    * @param {function} clientError - http callback
-    * @param {function} close - http callback
-    * @param {function} connect - http callback
-    * @param {function} connection - http callback
-    * @param {function} request - http callback
+    * @param {function} clientError
+    * @param {function} close
+    * @param {function} connect
+    * @param {function} connection
+    * @param {function} request
     */
    constructor( params ){
 
