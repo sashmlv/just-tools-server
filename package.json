@@ -16,7 +16,7 @@
     "server"
   ],
   "author": "sashmlv",
-  "license": "ISC",
+  "license": "UNLICENSE",
   "devDependencies": {
     "eslint": "^7.24.0",
     "eslint-plugin-promise": "^5.1.0",
