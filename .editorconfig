@@ -1,7 +1,7 @@
 [*]
 indent_style = space
 
-[*.{js,svelte}]
+[*.{js}]
 indent_size = 3
 
 [*.json]

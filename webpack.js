@@ -2,16 +2,14 @@
 
 import path from 'path';
 import ESLintPlugin from 'eslint-webpack-plugin';
-import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
 
-const env = dotenv.config().parsed,
-   __filename = fileURLToPath( import.meta.url ),
-   __dirname = path.dirname( __filename ),
-   ROOT = __dirname,
-   DIST = path.resolve( `${ ROOT }/dist` ),
-   NODE_ENV = env.NODE_ENV || 'development',
-   DEV = NODE_ENV !== 'production';
+const __filename = fileURLToPath( import.meta.url ),
+   __dirname  = path.dirname( __filename ),
+   ROOT  = __dirname,
+   DIST  = path.resolve( `${ ROOT }/dist` ),
+   NODE_ENV = process.env.NODE_ENV || 'development',
+   DEV   = NODE_ENV !== 'production';
 
 export default {
 
