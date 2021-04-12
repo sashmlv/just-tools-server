@@ -2,7 +2,7 @@ module.exports = {
 
    extends: [
 
-		'eslint:recommended',
+      'eslint:recommended',
       'plugin:radar/recommended',
       'plugin:sonarjs/recommended',
       'plugin:security/recommended',
@@ -16,7 +16,7 @@ module.exports = {
 
       'xss',
       'radar',
-		'unicorn',
+      'unicorn',
       'sonarjs',
       'promise',
       'security',
