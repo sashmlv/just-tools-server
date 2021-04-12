@@ -1,1 +1,1 @@
-### just-tools/server
+### just-tools-server
