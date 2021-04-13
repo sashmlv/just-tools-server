@@ -27,13 +27,10 @@ class Http2sServer {
 
       } = params || {};
 
-      const server = http2s.createSecureServer(
-         {
-            key,
-            cert,
-         },
-         request
-      );
+      const server = http2s.createSecureServer({
+         key,
+         cert,
+      });
 
       if( clientError ){
 

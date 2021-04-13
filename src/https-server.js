@@ -27,13 +27,10 @@ class HttpsServer {
 
       } = params || {};
 
-      const server = https.createServer(
-         {
-            key,
-            cert,
-         },
-         request
-      );
+      const server = https.createServer({
+         key,
+         cert,
+      });
 
       if( clientError ){
 

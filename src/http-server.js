@@ -23,7 +23,7 @@ class HttpServer {
 
       } = params || {};
 
-      const server = http.createServer( request );
+      const server = http.createServer();
 
       if( clientError ){
 

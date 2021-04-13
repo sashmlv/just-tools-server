@@ -23,7 +23,7 @@ class Http2Server {
 
       } = params || {};
 
-      const server = http2.createServer( request );
+      const server = http2.createServer();
 
       if( clientError ){
 
