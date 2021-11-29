@@ -1,6 +1,6 @@
 {
-  "name": "just-tools-server",
-  "version": "0.0.4",
+  "name": "server",
+  "version": "0.0.5",
   "description": "server",
   "main": "dist/index.js",
   "type": "module",
