@@ -52,7 +52,6 @@ export default {
             plugins: [
 
                'xss',
-               'radar',
                'unicorn',
                'sonarjs',
                'promise',
