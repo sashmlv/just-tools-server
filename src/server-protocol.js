@@ -1,5 +1,5 @@
 /**
- * Server protocol
+ * server protocol
  * @readonly
  * @enum {string}
  */

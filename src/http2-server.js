@@ -1,6 +1,5 @@
 import http2 from 'http2';
 
-/** Http2 Server */
 class Http2Server {
 
    /**

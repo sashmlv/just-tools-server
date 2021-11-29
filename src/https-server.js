@@ -1,6 +1,5 @@
 import https from 'https';
 
-/** Https Server */
 class HttpsServer {
 
    /**

@@ -1,6 +1,5 @@
 import http2s from 'http2';
 
-/** Http2 Secure Server */
 class Http2sServer {
 
    /**

@@ -4,7 +4,6 @@ import Http2Server from './http2-server.js';
 import Http2sServer from './http2s-server.js';
 import ServerProtocol from './server-protocol.js';
 
-/** Server */
 class Server {
 
    /**

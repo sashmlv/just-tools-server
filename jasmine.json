@@ -1,10 +1,11 @@
 {
-  "spec_dir": "src",
+  "spec_dir": "test",
   "spec_files": [
-    "**/**/*.test.mjs"
+    "**/*.test.js"
   ],
   "failFast": true,
   "stopSpecOnExpectationFailure": true,
   "oneFailurePerSpec": true,
-  "random": false
+  "random": false,
+  "jsLoader": "import"
 }

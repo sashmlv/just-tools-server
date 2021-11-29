@@ -1,6 +1,5 @@
 import http from 'http';
 
-/** Http Server */
 class HttpServer {
 
    /**
