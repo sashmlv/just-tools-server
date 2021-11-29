@@ -39,7 +39,7 @@ export default {
 
             parserOptions: {
 
-               ecmaVersion: 12,
+               ecmaVersion: 'latest',
                sourceType: 'module'
             },
             extends: [
