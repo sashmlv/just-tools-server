@@ -45,7 +45,6 @@ export default {
             extends: [
 
                'eslint:recommended',
-               'plugin:radar/recommended',
                'plugin:sonarjs/recommended',
                'plugin:security/recommended',
             ],
